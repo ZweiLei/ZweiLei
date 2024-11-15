@@ -1,2 +1,2 @@
 print("Hello World!")
-pritn("my name is Ein")
+print("my name is Ein, not Zwei")
