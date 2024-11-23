@@ -1,3 +1,5 @@
+# This program is a rock/scissors/paper game with computer. 
+# We plan to have 4 functions, including getting computer's choice, collecting user's choice, compare who is the winner, and print the result.
 import random
 
 class Game1:
