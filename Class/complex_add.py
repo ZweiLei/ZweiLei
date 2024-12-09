@@ -12,4 +12,5 @@ if __name__ == "__main__":
     n1 = Complex(3, 4)
     n2 = Complex(-2, 8)
     n3 = n1.add(n2)
+    print(f"n3 is a class obj: {n3}")
     print(n3.real, n3.imag)

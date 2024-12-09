@@ -3,7 +3,8 @@ def full_name(**kwarg):
     for key, value in kwarg.items():
         print(f"{key} = {value}")
 
-first = input("enter 1st name: ")
-sencond = input("enter 2nd name: ")
+if __name__ == "__main__":
+    first = input("enter 1st name: ")
+    sencond = input("enter 2nd name: ")
 
-full_name(first = first, sencond = sencond)
+    full_name(first = first, sencond = sencond)
